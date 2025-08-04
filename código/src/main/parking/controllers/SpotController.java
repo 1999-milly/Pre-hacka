@@ -1,7 +1,7 @@
-package com.example.parking.controllers;
-import com.example.parking.domain.spot.RequestSpotDTO;
-import com.example.parking.domain.spot.ResponseSpotDTO;
-import com.example.parking.services.SpotService;
+package parking.controllers;
+import parking.domain.spot.RequestSpotDTO;
+import parking.domain.spot.ResponseSpotDTO;
+import parking.services.SpotService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
